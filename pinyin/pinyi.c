@@ -229,6 +229,8 @@ char pinyinFirstLetter(unsigned short hanzi)
     int index = hanzi - HANZI_START;
     if (index >= 0 && index <= HANZI_COUNT) {
         return firstLetterArray[index];
+    } else if ( (hanzi >= 65 && hanzi <= 90) || ((hanzi >= 97) && (hanzi <= 122)) ) {
+        return hanzi;
     } else {
         return '#';
     }
