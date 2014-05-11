@@ -12,7 +12,7 @@ Copyright 2010 RED/SAFI. All rights reserved.
 
 Modified by Wanqiang Ji at May 11, 2014
 
-##　LICENSE
+## LICENSE
 Pinyin is published under MIT License
 
     Copyright (c) 2010 George
